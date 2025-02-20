@@ -1,0 +1,22 @@
+{
+    "name": "aldoh/app-salon_php_mvc_js_sass_fin",
+    "description": "proyecto",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+           "MVC\\":"./",
+           "Controllers\\":"./controllers",
+           "Model\\":"./models",
+            "Classes\\":"./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "paldogh",
+            "email": "aldo.h.p@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
